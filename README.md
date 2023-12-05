@@ -52,7 +52,7 @@ During development it is usually convenient to [build all subprojects at once](#
 Use the following command to build and run the executable target.
 
 ```bash
-cmake -S standalone -B build/standalone
+cmake -S src/greeter -B build/standalone
 cmake --build build/standalone
 ./build/standalone/Greeter --help
 ```
